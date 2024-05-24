@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/contactUs.css">
+    <script src="../scripts/contact.js" async></script>
+    <title>Contact Us</title>
+</head>
+<body>
+    <div class="header">
+        <div class="headerTitle">
+            <h1>Οργανισμός Εκπαίδευσης</h1>
+        </div>
+        <div class="navMenu">
+            <ul>
+                <li><a href="/">Main</a></li>
+                <li><a href="/announcement">Announcements</a></li>
+                <li><a href="/video">Videos</a></li>
+                <li><a href="/image">Images</a></li>
+                <li><a href="/contactUs">Contact Us</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="main">
+        <div class="container">
+            <div class="contactForm">
+                <h2>Contact Us</h2>
+                <p>* Required</p>
+                <form>
+                    <label for="name">Your Name:*</label>
+                    <input type="text"  name="name" id="nameInput" placeholder="Name" required>
+                    <label for="email">Your Email:*</label>
+                    <input type="email"  name="email" id="emailInput" placeholder="something@something.com" required>
+                    <label for="message">Your Message:*</label>
+                    <textarea name="message" id="" rows="4" id="textareaValue" placeholder="Write your message here..." required></textarea>
+                    <button type="button" id="submitBtn">Submit</button>
+                </form>
+            </div>
+            <div class="contactInfo">
+                <h2>Our Location</h2>
+                <p>
+                    <span class="icon">&#127987;</span> 1234 Street Avenue, Volos<br>
+                    <span class="icon">&#128506;</span> Greece
+                </p>
+                <h2>Contact Details</h2>
+                <p>
+                    <span class="icon">📬</span> Email: info@example.com<br>
+                    <span class="icon">📱</span> Phone: +301112223334
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <p>Designed By Skot. All Rights Reserved®</p>
+    </div>
+    
+</body>
+</html>
